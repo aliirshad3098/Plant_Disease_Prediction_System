@@ -3,10 +3,10 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-# # Load Model
-# model = tf.keras.models.load_model(
-#     "model/Plant_Disease_Model.keras"
-# )
+# Load Model
+model = tf.keras.models.load_model(
+    "model/Plant_Disease_Model.keras"
+)
 
 class_names = ["Infected", "Healthy"]
 
